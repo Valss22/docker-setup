@@ -12,7 +12,7 @@ services:
     image: postgres
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=788556
+      - POSTGRES_PASSWORD=***
       - POSTGRES_DB=high_load
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
